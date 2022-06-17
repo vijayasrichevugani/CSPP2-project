@@ -87,6 +87,6 @@ public class FP_operations{
 			}f.close();
 		}catch (Exception ex){System.out.println("File Not Found !!");}
 
-		try{ProcessBuilder output = new ProcessBuilder("open","/Users/prudhvikchirunomula/Desktop/MSIT_Tasks/CSPP-2/Project/Plagiarism/Java/FP/output.txt");output.start();}catch (Exception ex){System.out.println("error!");}						//process builder object "output" is created to open output.txt
+		try{ProcessBuilder output = new ProcessBuilder("open","/Users/vijayasri/Desktop/MSIT_Tasks/CSPP-2/Project/Plagiarism/Java/FP/output.txt");output.start();}catch (Exception ex){System.out.println("error!");}						//process builder object "output" is created to open output.txt
 	}
 }
